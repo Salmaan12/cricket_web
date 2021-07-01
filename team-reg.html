@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="#">
+
+    <title>Home</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/all.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/butter.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Rajdhani:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+</head>
+<!-- NAVBAR
+    ================================================== -->
+
+<body>
+    <div class="topone wow fadeInDown">
+        <div class="top_bar">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <ul class="social_icon">
+                            <li><a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <button class="login"><a href="account.html"><i class="fa fa-user"
+                                    aria-hidden="true"></i>Login</a></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-default" id="header">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">LOGO HERE</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 navbar">
+                    <ul class="nav navbar-nav nav-padding">
+                        <li class="active"><a href="index.html">HOME</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false">Matches <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">results</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Teams</a></li>
+                        <li><a href="">Points Table</a></li>
+                        <li><a href="">Fixtures</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li class="dropdown">
+                            <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false">MORE <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Player.html">Top Player's</a></li>
+                                <li><a href="news.html">News</a></li>
+                                <li><a href="#">Photos</a></li>
+                                <li><a href="#">Video</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <div class="fast-quote ">
+                            <button><a href="#" class="whitebtn hvr-icon-forward">Register A
+                                    Team</a></button>
+                        </div>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+
+
+
+    <div class="team-reg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <form>
+                        <h3>Cricket Team Registration Form</h3>
+                        <div class="form-group">
+                            <label for="exampleInputTeamName">Team Name</label>
+                            <input type="text" name="name" class="form-control" placeholder="Team Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputFile">Team Logo</label>
+                            <input type="file" id="exampleInputFile">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputTeamName">Captain's Name</label>
+                            <input type="text" name="name" class="form-control" placeholder="Captain's Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputTeamName">Captain's Contact Number</label>
+                            <input type="text" name="name" class="form-control" placeholder="03XXXXXXXXXX">
+                        </div>
+                        <h3>Team Player's Name With Stats</h3>
+                        <!-- input player name with stats  -->
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">1</span>
+                                        <input type="text" class="form-control" aria-describedby="playername1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <select class="form-control">
+                                        <option>Batsman</option>
+                                        <option>Bowler</option>
+                                        <option>All-Rounder</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+                        <!-- input player name with stats  -->
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">2</span>
+                                        <input type="text" class="form-control" aria-describedby="playername1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <select class="form-control">
+                                        <option>Batsman</option>
+                                        <option>Bowler</option>
+                                        <option>All-Rounder</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+                        <!-- input player name with stats  -->
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">3</span>
+                                        <input type="text" class="form-control" aria-describedby="playername1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <select class="form-control">
+                                        <option>Batsman</option>
+                                        <option>Bowler</option>
+                                        <option>All-Rounder</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+                        <!-- input player name with stats  -->
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">4</span>
+                                        <input type="text" class="form-control" aria-describedby="playername1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <select class="form-control">
+                                        <option>Batsman</option>
+                                        <option>Bowler</option>
+                                        <option>All-Rounder</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+                        <!-- input player name with stats  -->
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">5</span>
+                                        <input type="text" class="form-control" aria-describedby="playername1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <select class="form-control">
+                                        <option>Batsman</option>
+                                        <option>Bowler</option>
+                                        <option>All-Rounder</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+                        <!-- input player name with stats  -->
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">6</span>
+                                        <input type="text" class="form-control" aria-describedby="playername1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <select class="form-control">
+                                        <option>Batsman</option>
+                                        <option>Bowler</option>
+                                        <option>All-Rounder</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+                        <!-- input player name with stats  -->
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">7</span>
+                                        <input type="text" class="form-control" aria-describedby="playername1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <select class="form-control">
+                                        <option>Batsman</option>
+                                        <option>Bowler</option>
+                                        <option>All-Rounder</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+                        <!-- input player name with stats  -->
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">8</span>
+                                        <input type="text" class="form-control" aria-describedby="playername1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <select class="form-control">
+                                        <option>Batsman</option>
+                                        <option>Bowler</option>
+                                        <option>All-Rounder</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+                        <!-- input player name with stats  -->
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">9</span>
+                                        <input type="text" class="form-control" aria-describedby="playername1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <select class="form-control">
+                                        <option>Batsman</option>
+                                        <option>Bowler</option>
+                                        <option>All-Rounder</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+                        <!-- input player name with stats  -->
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">10</span>
+                                        <input type="text" class="form-control" aria-describedby="playername1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <select class="form-control">
+                                        <option>Batsman</option>
+                                        <option>Bowler</option>
+                                        <option>All-Rounder</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+                        <!-- input player name with stats  -->
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">11</span>
+                                        <input type="text" class="form-control" aria-describedby="playername1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <select class="form-control">
+                                        <option>Batsman</option>
+                                        <option>Bowler</option>
+                                        <option>All-Rounder</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+                        <div class="checkbox">
+                            <label><input type="checkbox" name="">
+                                <p>By creating an account, You agree to our <span class="t&policy"><a href="">Term &
+                                            Condition</a></span></p>
+                            </label>
+                            <!-- <span><a href="">Forgot Password?</a></span> -->
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block">REQUEST FOR TEAM REGISTRATION</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Begin: FOOTER -->
+    <footer class="fotsec">
+        <div class="container wow fadeInUp">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="ftabout">
+                        <h2>ABOUT US</h2>
+                        <div class="btline"></div>
+                        <p>Lorem ipsum dolore sit amet, consecteture adipiscing eliate, sed doist eiusmod tempor
+                            incididunt ut
+                            labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="ftabout">
+                        <h2>USEFUL LINKS</h2>
+                        <div class="btline"></div>
+                    </div>
+                    <div class="ftlinks">
+                        <ul>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="ftabout">
+                        <h2>USEFUL LINKS</h2>
+                        <div class="btline"></div>
+                    </div>
+                    <div class="ftlinks">
+                        <ul>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 nopadding">
+                    <div class="ftabout">
+                        <h2>NEWSLETTER</h2>
+                        <div class="btline"></div>
+                    </div>
+                    <div class="newsup">
+                        <input type="text" name="" placeholder="Email">
+                    </div>
+                    <div class="subnow">
+                        <a href="#">SUBSCRIBE</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lastft">
+            <p>Copyrights © 2021 CRICKET TOURNAMENT MANAGEMENT SYSTEM - All Rights Reserved</p>
+        </div>
+
+    </footer>
+    <!-- END Footer -->
+    <!-- END Footer Section -->
+    <!-- Placed at the end of the document so the pages load fater -->
+    <script src="js/all.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/butter.js"></script>
+    <script>
+        butter.init({ cancelOnTouch: true });
+    </script>
+    <script>
+        AOS.init({
+            duration: 2000,
+        });
+    </script>
+    </div>
+</body>
+
+</html>
