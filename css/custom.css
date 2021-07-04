@@ -38,8 +38,7 @@ body{
 /* font converted using font-converter.net. thank you! */
 
 .marginleftright {
-    margin-left: 12em;
-    margin-right: 12em;
+    margin: 0px 100px;
 }
 
 
@@ -139,6 +138,7 @@ button.login {
     background: #bb2b29;
     border: none;
     padding: 8px 0;
+    border-radius: 25px;
 }
 
 button.login a {
@@ -147,6 +147,12 @@ button.login a {
 
 button.login a i {
     padding-right: 8px;
+}
+
+button.login:hover {
+    background: transparent !important;
+    border: 1px solid #bb2b29;
+
 }
 
 /*top bar css end*/
@@ -195,6 +201,7 @@ div#navbar ul li {
     padding: 14px 20px;
     float: right;
     color: #fff !important;
+    border-radius: 25px;
 }
 
 ul.navbar-nav li div.fast-quote button a {
@@ -381,15 +388,17 @@ padding: 22px 0px;
 section.team_point_section {
     width: 100%;
     float: left;
-    margin: 60px 0 40px 0;
+    /* margin: 60px 0 40px 0; */
+    background: #20273f;
+    padding: 80px 0px;
 }
 
 .next_match_box {
-    border: 1px solid #cacaca;
-    padding: 14px;
+    padding: 64px;
     width: 100%;
     float: left;
     background: #fff;
+    letter-spacing: 1px;
 }
 
 .red_box {
@@ -397,10 +406,12 @@ section.team_point_section {
     padding: 12px;
     text-align: center;
     color: #fff;
+    height: 75px;
 }
 
 .red_box h3 {
   margin: 14px;
+  letter-spacing: 1.5px !important;
 }
 
 img.img-responsive {
@@ -431,25 +442,25 @@ ul.nmw-txt li strong {
     float: left;
 }
 
-.news_box {
+.recent_match_box {
+    padding: 16px 40px !important;
+}
+
+.match_date {
     background: #20273f;
-    padding: 12px;
-    margin-bottom: 30px;
-    height: 121px;
+    padding: 5px 0px;
 }
 
-.news_box img {
-    width: 100%;
-    height: 100%;
-}
-
-.news_box a h5 {
+.match_date .txtcolor p {
     color: #fff;
-    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 5px 0px;
 }
 
-.news_box p {
-    color: #fff;
+.match_result .col-md-12 p {
+    color: #20273f !important;
+    font-weight: bold;
+    padding: 10px 0px;
 }
 
 table.point_table {
@@ -482,7 +493,7 @@ tbody.padding tr td {
     padding: 5px 15px;
 }
 tbody.padding tr td {
-    padding: 6px;
+    padding: 9.5px;
 }
 
 .match_detail button {
@@ -516,20 +527,19 @@ tbody.padding tr td {
 }
 
 .team_card {
-    padding: 30px 6px !important;
+    padding: 15px 10px !important;
     height: 400px;
-    background: #bb2b29;
-    box-shadow: 0px 6px 8px 0px #000;
-    border: none !important;
+    background: transparent;
     transition: transform .2s;
+    border-radius: 10px;
 }
 
 .team_card:hover {
-    transform: scale(1.1);
+    box-shadow: 0px 5px 5px 2px #0003;
 }
 
 div.team_card div.caption h3 {
-    color: #fff;
+    color: #bb2b29;
     font-weight: bold;
     letter-spacing: 1px;
     /* padding: 4px; */
@@ -539,7 +549,7 @@ div.team_card div.caption h3 {
 
 div.team_card div.caption a.btn.btn-block {
     padding: 6px;
-    background: #f0f8ff47;
+    background: #bb2b29;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     color: #fff;

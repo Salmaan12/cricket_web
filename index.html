@@ -28,28 +28,28 @@
 
 <body>
   <div class="topone wow fadeInDown">
-    <div class="top_bar">
-      <div class="container-fluid marginleftright">
-        <div class="row">
+    <nav class="navbar navbar-default" id="header">
+      <div class="top_bar">
+        <div class="container-fluid marginleftright">
+          <div class="row">
 
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <ul class="social_icon">
-              <li><a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-              <li><a href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-              <li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-              <li><a href="#" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-            </ul>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <ul class="social_icon">
+                <li><a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <button class="login"><a href="account.html"><i class="fa fa-user"
+                    aria-hidden="true"></i>Login</a></button>
+            </div>
+
           </div>
-
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <button class="login"><a href="account.html"><i class="fa fa-user" aria-hidden="true"></i>Login</a></button>
-          </div>
-
         </div>
       </div>
-    </div>
-
-    <nav class="navbar navbar-default" id="header">
       <div class="container container-fluid marginleftright">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -163,46 +163,74 @@
         </div>
 
         <div class="col-md-4">
-          <div class="news_box">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="images/blog-1.jpg" class="img-responsive">
-              </div>
-              <div class="col-md-8">
-                <a href="news-detail.html">
-                  <h5>Heading Here</h5>
-                </a>
-                <p>Lorem ipsum dolore sit amet,</p>
-              </div>
-            </div>
+          <div class="red_box">
+            <h3>Recent Result</h3>
           </div>
+          <div class="next_match_box recent_match_box">
 
-          <div class="news_box">
             <div class="row">
-              <div class="col-md-4">
-                <img src="images/blog-1.jpg" class="img-responsive">
+              <div class="col-md-12">
+                <div class="row match_date">
+                  <div class="col-md-8 txtcolor">
+                    <p>Team C Vs Team D</p>
+                  </div>
+                  <div class="col-md-4 txtcolor">
+                    <p>02 July 2021</p>
+                  </div>
+                </div>
+                <div class="row match_result">
+                  <div class="col-md-12">
+                    <p>Team D won by 7 wickets</p>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-8">
-                <a href="news-detail.html">
-                  <h5>Heading Here</h5>
-                </a>
-                <p>Lorem ipsum dolore sit amet,</p>
+              <div class="col-md-12">
+                <div class="row match_date">
+                  <div class="col-md-8 txtcolor">
+                    <p>Team A Vs Team D</p>
+                  </div>
+                  <div class="col-md-4 txtcolor">
+                    <p>02 July 2021</p>
+                  </div>
+                </div>
+                <div class="row match_result">
+                  <div class="col-md-12">
+                    <p>Team A won by 23 runs</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="row match_date">
+                  <div class="col-md-8 txtcolor">
+                    <p>Team E Vs Team B</p>
+                  </div>
+                  <div class="col-md-4 txtcolor">
+                    <p>04 July 2021</p>
+                  </div>
+                </div>
+                <div class="row match_result">
+                  <div class="col-md-12">
+                    <p>Team E won by 2 wickets</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="row match_date">
+                  <div class="col-md-8 txtcolor">
+                    <p>Team C Vs Team D</p>
+                  </div>
+                  <div class="col-md-4 txtcolor">
+                    <p>02 July 2021</p>
+                  </div>
+                </div>
+                <div class="row match_result">
+                  <div class="col-md-12">
+                    <p>Team C won by 9 runs</p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="news_box">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="images/blog-1.jpg" class="img-responsive">
-              </div>
-              <div class="col-md-8">
-                <a href="news-detail.html">
-                  <h5>Heading Here</h5>
-                </a>
-                <p>Lorem ipsum dolore sit amet,</p>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -319,7 +347,7 @@
           <h2 class="team_txt">Teams</h2>
         </div>
         <div class="col-md-3">
-          <div class="thumbnail team_card text_align_center wow zoomIn" data-wow-duration="2s">
+          <div class="thumbnail team_card text_align_center">
             <img src="images/kpk.png" alt="logo">
             <div class="caption">
               <h3>Khyber Pakhtunkhwa</h3>
@@ -328,7 +356,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="thumbnail team_card text_align_center wow zoomIn" data-wow-duration="2s">
+          <div class="thumbnail team_card text_align_center">
             <img src="images/north.png" alt="logo">
             <div class="caption">
               <h3>Northern Punjab</h3>
@@ -337,7 +365,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="thumbnail team_card text_align_center wow zoomIn" data-wow-duration="2s">
+          <div class="thumbnail team_card text_align_center">
             <img src="images/south.png" alt="logo">
             <div class="caption">
               <h3>Southern Punjab</h3>
@@ -346,7 +374,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="thumbnail team_card text_align_center wow zoomIn" data-wow-duration="2s">
+          <div class="thumbnail team_card text_align_center">
             <img src="images/sindh.png" alt="logo">
             <div class="caption">
               <h3>Sindh Tiger</h3>
@@ -355,7 +383,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="thumbnail team_card text_align_center wow zoomIn" data-wow-duration="2s">
+          <div class="thumbnail team_card text_align_center">
             <img src="images/sindh.png" alt="logo">
             <div class="caption">
               <h3>Sindh Tiger</h3>
@@ -364,7 +392,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="thumbnail team_card text_align_center wow zoomIn" data-wow-duration="2s">
+          <div class="thumbnail team_card text_align_center">
             <img src="images/kpk.png" alt="logo">
             <div class="caption">
               <h3>Khyber Pakhtunkhwa</h3>
@@ -373,7 +401,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="thumbnail team_card text_align_center wow zoomIn" data-wow-duration="2s">
+          <div class="thumbnail team_card text_align_center">
             <img src="images/north.png" alt="logo">
             <div class="caption">
               <h3>Northern Punjab</h3>
@@ -382,7 +410,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="thumbnail team_card text_align_center wow zoomIn" data-wow-duration="2s">
+          <div class="thumbnail team_card text_align_center">
             <img src="images/south.png" alt="logo">
             <div class="caption">
               <h3>Southern Punjab</h3>
