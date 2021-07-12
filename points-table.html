@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="#">
+
+    <title>Home</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/all.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/butter.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+</head>
+<!-- NAVBAR
+    ================================================== -->
+
+<body>
+    <div class="topone wow fadeInDown">
+        <nav class="navbar navbar-default" id="header">
+            <div class="top_bar">
+                <div class="container-fluid marginleftright">
+                    <div class="row">
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <ul class="social_icon">
+                                <li><a href="#" target="_blank"><i class="fa fa-facebook-square"
+                                            aria-hidden="true"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa fa-twitter-square"
+                                            aria-hidden="true"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#" target="_blank"><i class="fa fa-youtube-play"
+                                            aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <button class="login"><a href="account.html"><i class="fa fa-user"
+                                        aria-hidden="true"></i>Login</a></button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container container-fluid marginleftright">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">LOGO HERE</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 navbar">
+                    <ul class="nav navbar-nav nav-padding navbar-right">
+                        <li class="active"><a href="index.html">HOME</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Matches <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">results</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Teams</a></li>
+                        <li><a href="">Points Table</a></li>
+                        <li><a href="">Fixtures</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MORE <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Player.html">Top Player's</a></li>
+                                <li><a href="news.html">News</a></li>
+                                <li><a href="#">Photos</a></li>
+                                <li><a href="#">Video</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="fast-quote">
+                                <button><a href="team-reg.html" class="whitebtn hvr-icon-forward">Register A
+                                        Team</a></button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+
+                <!-- Brand and toggle get grouped for better mobile display -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </div>
+
+    <section style="margin:5% 0%;">
+        <div class="container-fluid marginleftright">
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="standings-table standings-table--full ">
+                        <tbody>
+                            <tr class="standings-table__header">
+                                <th class="standings-table__freeze"></th>
+                                <th class="u-left-text standings-table__freeze">Team</th>
+                                <th class="standings-table__padded">Pld</th>
+                                <th class="standings-table__optional">Won</th>
+                                <th class="standings-table__optional">Lost</th>
+                                <th class="standings-table__optional">Tied</th>
+                                <th class="standings-table__optional">N/R</th>
+                                <th>Net RR</th>
+                                <th class="standings-table__optional">For</th>
+                                <th class="standings-table__optional">Against</th>
+                                <th>Pts</th>
+                                <th>Form</th>
+                            </tr>
+                            <tr>
+                                <td class="standings-table__freeze u-text-center">1</td>
+                                <td class="standings-table__team standings-table__freeze">
+                                    <i class="table__logo tLogo40x32 DC"></i>
+                                    <a href="/teams/delhi-capitals">
+                                        <span class="standings-table__team-name js-team">Korangi Capitals</span>
+                                        <span class="standings-table__team-name standings-table__team-name--short js-team">DC</span>
+                                    </a>
+                                </td>
+                                <td class="standings-table__padded">8</td>
+                                <td class="standings-table__optional">6</td>
+                                <td class="standings-table__optional">2</td>
+                                <td class="standings-table__optional">0</td>
+                                <td class="standings-table__optional">0</td>
+                                <td>+0.547</td>
+                                <td class="standings-table__optional">1,325/150.2</td>
+                                <td class="standings-table__optional">1,320/159.4</td>
+                                <td class="standings-table__highlight js-points">12</td>
+                                <td>
+                                    <ul class="standings-table__form">
+                                        <li class="standings-table__outcome standings-table__outcome--win">
+                                            W
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--win">
+                                            W
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--loss">
+                                            L
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--win standings-table__optional">
+                                            W
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--win standings-table__optional">
+                                            W
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="standings-table__freeze u-text-center">2</td>
+                                <td class="standings-table__team standings-table__freeze">
+                                    <i class="table__logo tLogo40x32 CSK"></i>
+                                    <a href="/teams/chennai-super-kings">
+                                        <span class="standings-table__team-name js-team">Layari Kings</span>
+                                        <span class="standings-table__team-name standings-table__team-name--short js-team">CSK</span>
+                                    </a>
+                                </td>
+                                <td class="standings-table__padded">7</td>
+                                <td class="standings-table__optional">5</td>
+                                <td class="standings-table__optional">2</td>
+                                <td class="standings-table__optional">0</td>
+                                <td class="standings-table__optional">0</td>
+                                <td>+1.263</td>
+                                <td class="standings-table__optional">1,285/134.1</td>
+                                <td class="standings-table__optional">1,153/138.4</td>
+                                <td class="standings-table__highlight js-points">10</td>
+                                <td>
+                                    <ul class="standings-table__form">
+                                        <li class="standings-table__outcome standings-table__outcome--loss">
+                                            L
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--win">
+                                            W
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--win">
+                                            W
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--win standings-table__optional">
+                                            W
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--win standings-table__optional">
+                                            W
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="standings-table__freeze u-text-center">3</td>
+                                <td class="standings-table__team standings-table__freeze">
+                                    <i class="table__logo tLogo40x32 RCB"></i>
+                                    <a href="/teams/royal-challengers-bangalore">
+                                        <span class="standings-table__team-name js-team">Garden Challengers
+                                            </span>
+                                        <span class="standings-table__team-name standings-table__team-name--short js-team">RCB</span>
+                                    </a>
+                                </td>
+                                <td class="standings-table__padded">7</td>
+                                <td class="standings-table__optional">5</td>
+                                <td class="standings-table__optional">2</td>
+                                <td class="standings-table__optional">0</td>
+                                <td class="standings-table__optional">0</td>
+                                <td>-0.171</td>
+                                <td class="standings-table__optional">1,132/136.3</td>
+                                <td class="standings-table__optional">1,185/140</td>
+                                <td class="standings-table__highlight js-points">10</td>
+                                <td>
+                                    <ul class="standings-table__form">
+                                        <li class="standings-table__outcome standings-table__outcome--loss">
+                                            L
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--win">
+                                            W
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--loss">
+                                            L
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--win standings-table__optional">
+                                            W
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--win standings-table__optional">
+                                            W
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="standings-table__freeze u-text-center">4</td>
+                                <td class="standings-table__team standings-table__freeze">
+                                    <i class="table__logo tLogo40x32 MI"></i>
+                                    <a href="/teams/mumbai-indians">
+                                        <span class="standings-table__team-name js-team">FB Tigers</span>
+                                        <span class="standings-table__team-name standings-table__team-name--short js-team">MI</span>
+                                    </a>
+                                </td>
+                                <td class="standings-table__padded">7</td>
+                                <td class="standings-table__optional">4</td>
+                                <td class="standings-table__optional">3</td>
+                                <td class="standings-table__optional">0</td>
+                                <td class="standings-table__optional">0</td>
+                                <td>+0.062</td>
+                                <td class="standings-table__optional">1,120/138.3</td>
+                                <td class="standings-table__optional">1,098/136.5</td>
+                                <td class="standings-table__highlight js-points">8</td>
+                                <td>
+                                    <ul class="standings-table__form">
+                                        <li class="standings-table__outcome standings-table__outcome--win">
+                                            W
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--win">
+                                            W
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--loss">
+                                            L
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--loss standings-table__optional">
+                                            L
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--win standings-table__optional">
+                                            W
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="standings-table__freeze u-text-center">5</td>
+                                <td class="standings-table__team standings-table__freeze">
+                                    <i class="table__logo tLogo40x32 RR"></i>
+                                    <a href="/teams/rajasthan-royals">
+                                        <span class="standings-table__team-name js-team">Nazimabad Champions</span>
+                                        <span class="standings-table__team-name standings-table__team-name--short js-team">RR</span>
+                                    </a>
+                                </td>
+                                <td class="standings-table__padded">7</td>
+                                <td class="standings-table__optional">3</td>
+                                <td class="standings-table__optional">4</td>
+                                <td class="standings-table__optional">0</td>
+                                <td class="standings-table__optional">0</td>
+                                <td>-0.190</td>
+                                <td class="standings-table__optional">1,212/138.3</td>
+                                <td class="standings-table__optional">1,207/135</td>
+                                <td class="standings-table__highlight js-points">6</td>
+                                <td>
+                                    <ul class="standings-table__form">
+                                        <li class="standings-table__outcome standings-table__outcome--win">
+                                            W
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--loss">
+                                            L
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--win">
+                                            W
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--loss standings-table__optional">
+                                            L
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--loss standings-table__optional">
+                                            L
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="standings-table__freeze u-text-center">6</td>
+                                <td class="standings-table__team standings-table__freeze">
+                                    <i class="table__logo tLogo40x32 PBKS"></i>
+                                    <a href="/teams/punjab-kings">
+                                        <span class="standings-table__team-name js-team">Jubilee Loins</span>
+                                        <span class="standings-table__team-name standings-table__team-name--short js-team">PBKS</span>
+                                    </a>
+                                </td>
+                                <td class="standings-table__padded">8</td>
+                                <td class="standings-table__optional">3</td>
+                                <td class="standings-table__optional">5</td>
+                                <td class="standings-table__optional">0</td>
+                                <td class="standings-table__optional">0</td>
+                                <td>-0.368</td>
+                                <td class="standings-table__optional">1,242/157.4</td>
+                                <td class="standings-table__optional">1,212/147</td>
+                                <td class="standings-table__highlight js-points">6</td>
+                                <td>
+                                    <ul class="standings-table__form">
+                                        <li class="standings-table__outcome standings-table__outcome--loss">
+                                            L
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--win">
+                                            W
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--loss">
+                                            L
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--win standings-table__optional">
+                                            W
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--loss standings-table__optional">
+                                            L
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="standings-table__freeze u-text-center">7</td>
+                                <td class="standings-table__team standings-table__freeze">
+                                    <i class="table__logo tLogo40x32 KKR"></i>
+                                    <a href="/teams/kolkata-knight-riders">
+                                        <span class="standings-table__team-name js-team">Baldia Riders</span>
+                                        <span class="standings-table__team-name standings-table__team-name--short js-team">KKR</span>
+                                    </a>
+                                </td>
+                                <td class="standings-table__padded">7</td>
+                                <td class="standings-table__optional">2</td>
+                                <td class="standings-table__optional">5</td>
+                                <td class="standings-table__optional">0</td>
+                                <td class="standings-table__optional">0</td>
+                                <td>-0.494</td>
+                                <td class="standings-table__optional">1,110/136.4</td>
+                                <td class="standings-table__optional">1,166/135.2</td>
+                                <td class="standings-table__highlight js-points">4</td>
+                                <td>
+                                    <ul class="standings-table__form">
+                                        <li class="standings-table__outcome standings-table__outcome--loss">
+                                            L
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--win">
+                                            W
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--loss">
+                                            L
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--loss standings-table__optional">
+                                            L
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--loss standings-table__optional">
+                                            L
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="standings-table__freeze u-text-center">8</td>
+                                <td class="standings-table__team standings-table__freeze">
+                                    <i class="table__logo tLogo40x32 SRH"></i>
+                                    <a href="/teams/sunrisers-hyderabad">
+                                        <span class="standings-table__team-name js-team">Bahria Green</span>
+                                        <span class="standings-table__team-name standings-table__team-name--short js-team">SRH</span>
+                                    </a>
+                                </td>
+                                <td class="standings-table__padded">7</td>
+                                <td class="standings-table__optional">1</td>
+                                <td class="standings-table__optional">6</td>
+                                <td class="standings-table__optional">0</td>
+                                <td class="standings-table__optional">0</td>
+                                <td>-0.623</td>
+                                <td class="standings-table__optional">1,073/138.4</td>
+                                <td class="standings-table__optional">1,158/138.3</td>
+                                <td class="standings-table__highlight js-points">2</td>
+                                <td>
+                                    <ul class="standings-table__form">
+                                        <li class="standings-table__outcome standings-table__outcome--loss">
+                                            L
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--loss">
+                                            L
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--loss">
+                                            L
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--win standings-table__optional">
+                                            W
+                                        </li>
+                                        <li class="standings-table__outcome standings-table__outcome--loss standings-table__optional">
+                                            L
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Begin: FOOTER -->
+    <footer class="fotsec">
+        <div class="container-fluid marginleftright wow fadeInUp">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="ftabout">
+                        <h2>ABOUT US</h2>
+                        <div class="btline"></div>
+                        <p>Lorem ipsum dolore sit amet, consecteture adipiscing eliate, sed doist eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="ftabout">
+                        <h2>USEFUL LINKS</h2>
+                        <div class="btline"></div>
+                    </div>
+                    <div class="ftlinks">
+                        <ul>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="ftabout">
+                        <h2>USEFUL LINKS</h2>
+                        <div class="btline"></div>
+                    </div>
+                    <div class="ftlinks">
+                        <ul>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                            <li><a href="#">Lorem Ipsam</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 nopadding">
+                    <div class="ftabout">
+                        <h2>NEWSLETTER</h2>
+                        <div class="btline"></div>
+                    </div>
+                    <div class="newsup">
+                        <input type="text" name="" placeholder="Email">
+                    </div>
+                    <div class="subnow">
+                        <a href="#">SUBSCRIBE</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lastft">
+            <p>Copyrights © 2021 CRICKET TOURNAMENT MANAGEMENT SYSTEM - All Rights Reserved</p>
+        </div>
+
+    </footer>
+    <!-- END Footer -->
+    <!-- END Footer Section -->
+    <!-- Placed at the end of the document so the pages load fater -->
+    <script src="js/all.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/butter.js"></script>
+    <script>
+        butter.init({
+            cancelOnTouch: true
+        });
+    </script>
+    <script>
+        AOS.init({
+            duration: 2000,
+        });
+    </script>
+    </div>
+</body>
+
+</html>

@@ -1,118 +1,136 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
 @font-face {
     font-family: 'Oswald';
     src: url('../fonts/Oswald-Regular.eot');
-    src: url('../fonts/Oswald-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Oswald-Regular.woff2') format('woff2'),
-        url('../fonts/Oswald-Regular.woff') format('woff'),
-        url('../fonts/Oswald-Regular.ttf') format('truetype');
+    src: url('../fonts/Oswald-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Oswald-Regular.woff2') format('woff2'), url('../fonts/Oswald-Regular.woff') format('woff'), url('../fonts/Oswald-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Copperplate Gothic';
-    src: url('../fonts/CopperplateGothic-Bold.woff2') format('woff2'),
-        url('../fonts/CopperplateGothic-Bold.woff') format('woff'),
-        url('../fonts/CopperplateGothic-Bold.ttf') format('truetype');
+    src: url('../fonts/CopperplateGothic-Bold.woff2') format('woff2'), url('../fonts/CopperplateGothic-Bold.woff') format('woff'), url('../fonts/CopperplateGothic-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
-
 }
-
 
 @charset "utf-8";
+
 /* CSS Document */
-body, html{
-    height: 100%
-    scroll-behavior: smooth;
+
+body,
+html {
+    height: 100% scroll-behavior: smooth;
 }
-body{
-  background: #f8f8f8;
-  font-family: 'Poppins', sans-serif;
+
+body {
+    background: #f8f8f8;
+    font-family: 'Poppins', sans-serif;
 }
+
+
 /* font converted using font-converter.net. thank you! */
 
 .marginleftright {
     margin: 0px 100px;
 }
 
-
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Oswald';
 }
-h1, h2, h3, h4, h5, h6, p, a, ul, li{
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
-a:hover{
-  text-decoration: none;
+
+a:hover {
+    text-decoration: none;
 }
-a:focus{
-  outline: none !important;
+
+a:focus {
+    outline: none !important;
 }
-img:focus{
-  outline: none !important;
+
+img:focus {
+    outline: none !important;
 }
-.slick-slide:focus{
-  outline: none !important;
+
+.slick-slide:focus {
+    outline: none !important;
 }
-ul{
-  padding: 0px;
-  /*margin: 35px 0px;*/
-  list-style: none;
+
+ul {
+    padding: 0px;
+    /*margin: 35px 0px;*/
+    list-style: none;
 }
 
 a {
-  font-size: 16px;
+    font-size: 16px;
 }
 
-p{
-  color: #666666;
-  font-size: 15px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+p {
+    color: #666666;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
+
 ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    
     color: #777;
 }
+
 ::-moz-placeholder {
     /* Firefox 19+ */
-    
     color: #777;
 }
+
 :-ms-input-placeholder {
     /* IE 10+ */
-    
     color: #777;
 }
+
 :-moz-placeholder {
     /* Firefox 18- */
-    
     color: #777;
 }
+
 p {}
 
-header{
-  /* background: #f88621; */
-  padding: 0px 0;
+header {
+    /* background: #f88621; */
+    padding: 0px 0;
 }
 
 
 /*top bar start*/
 
 .top_bar {
-  width: 100%;
-  float: left;
-  background: #20273f;
-  color: #fff;
+    width: 100%;
+    float: left;
+    background: #20273f;
+    color: #fff;
 }
 
 ul.social_icon {
@@ -122,8 +140,8 @@ ul.social_icon {
 }
 
 ul.social_icon li {
-  display: inline;
-  padding: 0 3px;
+    display: inline;
+    padding: 0 3px;
 }
 
 ul.social_icon li a i {
@@ -152,15 +170,13 @@ button.login a i {
 button.login:hover {
     background: transparent !important;
     border: 1px solid #bb2b29;
-
 }
+
 
 /*top bar css end*/
 
 
-
 /*navigation css start*/
-
 
 .main-navigate {
     width: 100%;
@@ -194,7 +210,6 @@ div#navbar ul li {
     background: transparent !important;
 }
 
-
 .fast-quote button {
     background: #bb2b29;
     border: none;
@@ -205,7 +220,7 @@ div#navbar ul li {
 }
 
 ul.navbar-nav li div.fast-quote button a {
-  color: #fff !important;
+    color: #fff !important;
 }
 
 .navbar-default {
@@ -213,11 +228,13 @@ ul.navbar-nav li div.fast-quote button a {
     border: unset !important;
 }
 
+
 /* .nav-padding {
     padding-left: 10em;
 } */
 
-.nav-padding, .navbar-header {
+.nav-padding,
+.navbar-header {
     padding-top: 1.5em
 }
 
@@ -234,27 +251,27 @@ ul.navbar-nav li div.fast-quote button a {
     float: left;
 }
 
-.ftabout{
-position: relative;
+.ftabout {
+    position: relative;
 }
 
 .ftabout h2 {
-  border-bottom: 2px solid #bb2b29;
-  padding: 17px 0px;
-  font-size: 26px;
-  font-weight: 600;
-  color: #ffff;
-  width: 86%;
-  text-align: left;
-  font-family: 'Copperplate Gothic';
+    border-bottom: 2px solid #bb2b29;
+    padding: 17px 0px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffff;
+    width: 86%;
+    text-align: left;
+    font-family: 'Copperplate Gothic';
 }
 
-.ftabout p{
-  color: #fff;
-  padding: 20px  0px;
-  font-size: 13px;
-  line-height: 28px;
-  width: 91%;
+.ftabout p {
+    color: #fff;
+    padding: 20px 0px;
+    font-size: 13px;
+    line-height: 28px;
+    width: 91%;
 }
 
 .btline {
@@ -266,14 +283,14 @@ position: relative;
     background-color: #bb2b29;
 }
 
-.ftlinks ul{
-  margin: 0px  0px;
-  padding: 20px 0px;
+.ftlinks ul {
+    margin: 0px 0px;
+    padding: 20px 0px;
 }
 
-.ftlinks li{
-  margin: 0px  0px;
-  padding: 12px 0px;
+.ftlinks li {
+    margin: 0px 0px;
+    padding: 12px 0px;
 }
 
 .ftlinks a {
@@ -281,38 +298,40 @@ position: relative;
     color: #fff;
 }
 
-.followicons{
- 
-display: flex;
- 
-padding: 22px 0px;
+.followicons {
+    display: flex;
+    padding: 22px 0px;
 }
 
-.followicons p{font-size: 15px;color: #fff;width: 45%;}
-
-.followicons ul{
-  margin: 0px 0px;
-  padding: 0px 0px;
+.followicons p {
+    font-size: 15px;
+    color: #fff;
+    width: 45%;
 }
 
-.followicons li{
-  margin: 0px 0px;
-  padding: 0px 0px;
-  display: inline-block;
+.followicons ul {
+    margin: 0px 0px;
+    padding: 0px 0px;
 }
 
-.newsup{
-  padding: 45px 0px 25px;
+.followicons li {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    display: inline-block;
 }
 
-.newsup input{  
-  width: 90%;  
-  height: 42px;  
-  padding: 0px 15px;
+.newsup {
+    padding: 45px 0px 25px;
 }
 
-.subnow{
-  padding: 20px 0px;
+.newsup input {
+    width: 90%;
+    height: 42px;
+    padding: 0px 15px;
+}
+
+.subnow {
+    padding: 20px 0px;
 }
 
 .subnow a {
@@ -324,20 +343,21 @@ padding: 22px 0px;
     border: 2px solid #fff;
 }
 
-.lastft{
-  border-top: 1px solid #fff;
-  padding: 0px;
-  margin: 25px 0px 0px;
+.lastft {
+    border-top: 1px solid #fff;
+    padding: 0px;
+    margin: 25px 0px 0px;
 }
-.lastft p{
-  text-align: center;
-  color: #fff;
-  padding: 12px 0px 0px;
-  font-weight: 600;
+
+.lastft p {
+    text-align: center;
+    color: #fff;
+    padding: 12px 0px 0px;
+    font-weight: 600;
 }
+
+
 /*footer sec css begin*/
-
-
 
 
 /*banner sec start */
@@ -352,7 +372,6 @@ padding: 22px 0px;
     left: 14%;
     padding-bottom: 30px;
 }
-
 
 .carousel-caption .SliderText {
     float: right;
@@ -374,13 +393,11 @@ padding: 22px 0px;
 }
 
 .SliderText p {
-  color: #fff;
+    color: #fff;
 }
 
 
 /*banner sec end*/
-
-
 
 
 /*match section start*/
@@ -410,8 +427,8 @@ section.team_point_section {
 }
 
 .red_box h3 {
-  margin: 14px;
-  letter-spacing: 1.5px !important;
+    margin: 14px;
+    letter-spacing: 1.5px !important;
 }
 
 img.img-responsive {
@@ -420,7 +437,7 @@ img.img-responsive {
 }
 
 .text_align_center {
-  text-align: center;
+    text-align: center;
 }
 
 strong.vs {
@@ -492,6 +509,7 @@ table.point_table tbody tr {
 tbody.padding tr td {
     padding: 5px 15px;
 }
+
 tbody.padding tr td {
     padding: 9.5px;
 }
@@ -506,8 +524,8 @@ tbody.padding tr td {
     color: #fff;
 }
 
-/*match section end*/
 
+/*match section end*/
 
 
 /* Team Section start */
@@ -559,16 +577,14 @@ div.team_card div.caption a.btn.btn-block {
 /* Team Section end */
 
 
-
 /*News section start*/
 
 .serv {
-    background-color: rgb( 255, 255, 255 );
+    background-color: rgb( 255, 255, 255);
     box-shadow: 2.5px 4.33px 20px 0px rgb(0 0 0 / 14%);
     padding: 20px;
     margin: 10px;
 }
-
 
 .serv h5 {
     font-size: 20px;
@@ -611,7 +627,6 @@ section.news {
     margin-top: 20px;
 }
 
-
 .hvideo-box {
     border-radius: 3px;
     overflow: hidden;
@@ -631,11 +646,11 @@ section.news {
     font-weight: 600;
     padding: 0 15px;
     border-radius: 15px 0 0 15px;
-    background: rgb(53,61,84);
-    background: -moz-linear-gradient(top, rgba(53,61,84,1) 0%, rgba(24,31,55,1) 100%);
-    background: -webkit-linear-gradient(top, rgba(53,61,84,1) 0%, rgba(24,31,55,1) 100%);
-    background: linear-gradient(to bottom, rgba(53,61,84,1) 0%, rgba(24,31,55,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353d54', endColorstr='#181f37', GradientType=0 );
+    background: rgb(53, 61, 84);
+    background: -moz-linear-gradient(top, rgba(53, 61, 84, 1) 0%, rgba(24, 31, 55, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(53, 61, 84, 1) 0%, rgba(24, 31, 55, 1) 100%);
+    background: linear-gradient(to bottom, rgba(53, 61, 84, 1) 0%, rgba(24, 31, 55, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#353d54', endColorstr='#181f37', GradientType=0);
 }
 
 .hv-info {
@@ -671,7 +686,7 @@ section.news {
     left: -5px;
     top: -5px;
     border-radius: 100%;
-    background: rgba(213,22,51,.30);
+    background: rgba(213, 22, 51, .30);
     z-index: -1;
 }
 
@@ -702,7 +717,7 @@ section.player {
 
 .text_white h2,
 .text_white p {
-  color: #fff;
+    color: #fff;
 }
 
 .player-txt {
@@ -826,34 +841,11 @@ button.tean_btn {
 }
 
 button.tean_btn a {
-  color: #fff;
+    color: #fff;
 }
 
 
 /*Team section end */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*contact section css*/
@@ -863,6 +855,7 @@ button.tean_btn a {
     width: 100%;
     height: 336px;
 }
+
 .inner_text.contact p {
     line-height: 24px;
     color: #545353;
@@ -873,6 +866,7 @@ button.tean_btn a {
     font-size: 13px;
     width: 96%;
 }
+
 .inner_text.contact ul li a strong {
     font-size: 20px;
     font-weight: 500;
@@ -886,23 +880,30 @@ button.tean_btn a {
     padding: 0;
     list-style-type: none;
 }
+
 .inner_text.contact ul li {
     margin-bottom: 42px;
 }
+
 .inner_text.contact ul li a {
     font-size: 17px;
     line-height: 27px;
     font-weight: 600;
     color: #616ef8;
 }
+
 .inner_text.contact ul li a img {
     float: left;
     margin-right: 10px;
 }
+
 .contact_form {
     padding: 1% 0 0;
 }
-.contact_form .form-group input[type="text"], textarea, input[type="submit"] {
+
+.contact_form .form-group input[type="text"],
+textarea,
+input[type="submit"] {
     height: 58px;
     width: 100%;
     padding: 0 10px;
@@ -911,18 +912,20 @@ button.tean_btn a {
     color: #000;
     background: #fcfcfc;
 }
+
 .contact_form .form-group textarea {
     height: 250px;
     width: 100%;
     padding: 10px 10px;
-        resize: none;
-
+    resize: none;
 }
+
 .contact_form .form-group input[type="submit"]:hover {
     color: #ffff;
     background: #000;
     /* border-color: #001f3c; */
 }
+
 .contact_form .form-group input[type="submit"] {
     font-size: 18px;
     color: #000;
@@ -930,10 +933,12 @@ button.tean_btn a {
     text-transform: capitalize;
     border-color: transparent;
 }
+
 .bottom {
     position: relative;
     margin-bottom: 30px;
 }
+
 h3.bottom {
     font-size: 34px;
     line-height: 55px;
@@ -950,31 +955,409 @@ section.ab_page {
     padding: 78px 0px;
 }
 
-
-.ab_page  .sptext p{
-  line-height: 24px;
-  color: #545353;
-  font-size: 15px;
-  font-weight: 600;
-  font-size: 15px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 13px;
-  width: 101%;
+.ab_page .sptext p {
+    line-height: 24px;
+    color: #545353;
+    font-size: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    width: 101%;
 }
+
+
 /*contact section css*/
 
 
+/* points table page styling */
 
+.standings-table {
+    width: 100%
+}
+
+.standings-table__highlight {
+    font-weight: 700
+}
+
+.standings-table__qualified {
+    font-weight: 700;
+    color: #3bcf5a
+}
+
+.standings-table__team {
+    text-align: left;
+    white-space: nowrap
+}
+
+.standings-table__team a {
+    color: inherit;
+    text-decoration: none
+}
+
+.standings-table__team a:hover {
+    text-decoration: underline
+}
+
+.standings-table__team-name {
+    font-weight: 700;
+    color: #111
+}
+
+.standings-table__team-name--short {
+    display: none
+}
+
+.standings-table__form {
+    font-size: .9rem;
+    white-space: nowrap
+}
+
+.standings-table__outcome {
+    display: inline-block;
+    background: #a8a8a8;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    border-radius: .3rem;
+    margin-right: .4rem;
+    min-width: 1.8rem;
+    padding: .2rem
+}
+
+.standings-table__outcome:last-child {
+    margin-right: 0
+}
+
+.standings-table__outcome--win {
+    background: #01a54b
+}
+
+.standings-table__outcome--loss {
+    background: #a50101
+}
+
+.standings-table .table__logo--oval {
+    display: none
+}
+
+.standings-table th {
+    background: #bb2b29;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.standings-table td {
+    border-bottom: 1px solid hsla(0, 0%, 100%, .2);
+    padding: 1rem
+}
+
+.standings-table td:nth-child(n+3) {
+    text-align: center
+}
+
+.standings-table--abridged {
+    color: #fff;
+    margin: 0
+}
+
+.standings-table--abridged .standings-table__team-name {
+    display: none
+}
+
+.standings-table--abridged .standings-table__team-name--short {
+    display: inline;
+    color: #fff
+}
+
+.standings-table--abridged .standings-table__freeze {
+    font-weight: 700
+}
+
+.standings-table--abridged .standings-table__team {
+    text-align: left
+}
+
+.standings-table--abridged .standings-table__highlight {
+    font-weight: 700
+}
+
+.standings-table--abridged .table__logo {
+    margin-right: 1.2rem
+}
+
+.standings-table--abridged .table__logo--oval {
+    display: inline-block
+}
+
+.standings-table--abridged .table__logo--rect {
+    display: none
+}
+
+.standings-table--abridged th {
+    background: transparent;
+    font-weight: 400;
+    color: #fc0;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1.8rem .4rem;
+    text-transform: uppercase
+}
+
+.standings-table--abridged td {
+    padding: .5rem;
+    text-align: center;
+    position: relative;
+    font-weight: 600;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .1)
+}
+
+.standings-table--abridged td:first-child {
+    padding-left: 1.3rem
+}
+
+.standings-table--abridged tbody {
+    display: table-row-group;
+    overflow-y: inherit
+}
+
+.standings-table--full .standings-table__team-name {
+    font-size: 1.4rem;
+    margin-left: .5rem
+}
+
+.standings-table--full .standings-table td:nth-child(3) {
+    text-align: center
+}
+
+.standings-table--full tr:nth-child(odd) {
+    background: #fff
+}
+
+.standings-table--full tr:nth-child(2n) {
+    background: #f5f5f5
+}
+
+.standings-table--full tr:first-child {
+    background: #19398a
+}
+
+.standings-table--full th {
+    height: 4rem;
+    white-space: nowrap
+}
+
+.tabbed-standings .standings-table--abridged tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, .4)
+}
+
+.tabbed-standings .standings-table--abridged tr:nth-child(2n) td:first-child:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -.2rem;
+    height: .1rem;
+    width: .8rem;
+    border-bottom: .1rem solid #040e27
+}
+
+.tabbed-standings .standings-table--abridged tr:nth-child(2n) td:first-child:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -.1rem;
+    height: .1rem;
+    width: .8rem;
+    border-bottom: .1rem solid #040e27
+}
+
+.tabbed-standings .standings-table--abridged tr:nth-child(2n) td:last-child:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -.2rem;
+    height: .1rem;
+    width: .8rem;
+    border-bottom: .1rem solid #040e27
+}
+
+.tabbed-standings .standings-table--abridged tr:nth-child(2n) td:last-child:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -.1rem;
+    height: .1rem;
+    width: .8rem;
+    border-bottom: .1rem solid #040e27
+}
+
+
+/* end */
+
+
+/* fixture page styling */
+
+
+/* CSS rules are kept repetitive so that you can get CSS rules for each button easily :) */
+
+* .knobs,
+.layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.button {
+    position: relative;
+    top: 50%;
+    width: 365px;
+    height: 36px;
+    margin: -20px auto 0 auto;
+    overflow: hidden;
+}
+
+.button.b2 {
+    border-radius: 50px;
+}
+
+.checkbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.knobs {
+    z-index: 2;
+}
+
+.layer {
+    width: 100%;
+    /* background-color: #ebf7fc; */
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+
+
+/* Button 10 */
+
+#button-10 .knobs:before,
+#button-10 .knobs:after,
+#button-10 .knobs span {
+    position: absolute;
+    top: 4px;
+    width: 185px;
+    height: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    padding: 6px 4px;
+    border-radius: 2px;
+    transition: 0.3s ease all;
+}
+
+#button-10 .knobs:before {
+    content: "";
+    left: 4px;
+    width: 185px;
+    height: 29px;
+    border-radius: 24px;
+    background-color: #20273f;
+}
+
+#button-10 .knobs:after {
+    content: "Weekly Fixtures";
+    right: 4px;
+    /* color: #4e4e4e; */
+}
+
+#button-10 .knobs span {
+    display: inline-block;
+    left: 4px;
+    color: #fff;
+    z-index: 1;
+}
+
+#button-10 .checkbox:checked+.knobs span {
+    color: #4e4e4e;
+}
+
+#button-10 .checkbox:checked+.knobs:before {
+    left: 182px;
+    width: 171px;
+    height: 29px;
+    border-radius: 24px;
+    background-color: #20273f;
+}
+
+#button-10 .checkbox:checked+.knobs:after {
+    color: #fff;
+}
+
+
+/* headlines with lines */
+
+.decorated {
+    overflow: hidden;
+    text-align: center;
+}
+
+.decorated>span {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.decorated>span:before,
+.decorated>span:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid #bb2b29;
+    width: 100vw;
+    margin: 0 20px;
+}
+
+.decorated>span:before {
+    right: 100%;
+}
+
+.decorated>span:after {
+    left: 100%;
+}
+
+
+/* end */
 
 
 /*BEGIN RESPONSIVE*/
 
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {}
 
-@media only screen and (min-width: 1600px) and (max-width: 1920px){}
 @media only screen and (min-width: 1445px) and (max-width: 1599px) {}
-@media only screen and (min-width: 1366px) and (max-width: 1444px) {}
-@media only screen and (min-width: 1200px) and (max-width: 1365px){}
-@media only screen and (min-width: 992px) and (max-width: 1199px){}
-@media only screen and (min-width: 768px) and (max-width: 991px){}
-@media only screen and (min-width: 520px) and (max-width: 767px){}
-@media only screen and (min-width: 300px) and (max-width: 519px){}
+
+@media only screen and (min-width: 1326px) and (max-width: 1444px) {
+    /* html body {
+        zoom: 80%;
+    } */
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {}
